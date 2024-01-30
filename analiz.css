@@ -1,0 +1,156 @@
+body {
+    margin: 0;
+    /*убирает отступы фона по краям*/
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Notable', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
+    background-color: #e6e4e3;
+    overflow-x: hidden;
+    color: #fff;
+    font-size: large;
+}
+
+.intro {
+    width: 100vw;
+    height: 50vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    margin: 10vw 10vw;
+    /*Растояние вверху и снизу*/
+    width: 100vw;
+    max-width: 100vw;
+    margin: 0;
+}
+
+.nav {
+    background-color: #c5c5e2f2;
+    z-index: 9999;
+    box-shadow: 0px 0px 29px -11px rgba(0, 0, 0, 0.6);
+    display: block;
+
+    text-align: center;
+    top: 0;
+    padding-top: 1vw;
+    height: 3vw;
+    width: 100%;
+}
+
+.nav-item {
+    color: #2c2721;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 800;
+    font-size: 1vw;
+    margin-right: 4vw;
+    margin-left: 1vw;
+    text-align: left;
+    transition: color 0.2s linear;
+}
+
+.nav-item:hover {
+    /*Наведение мышкой*/
+    color: #3d2bb3;
+}
+
+.pagol {
+    text-align: center;
+    font-size: 2vw;
+    font-weight: 500;
+    align-items: center;
+    height: 7vw;
+    color: #000;
+}
+
+.analiz {
+    padding: 8vw 7vw 10vw 7vw;
+}
+
+.blok {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+
+}
+
+.analiz img {
+    width: 55vw;
+    height: 40vw;
+}
+
+.blok img {
+    width: 45vw;
+    height: 25vw;
+    
+}
+
+.right {
+    margin-top: 1vw;
+    height: 8vw;
+    padding: 1vw;
+    text-align: right;
+    background-color: #7979bcc5;
+    border-radius: 1.4vw;
+    font-size: 1vw;
+}
+
+.right_1 {
+    margin-top: 1vw;
+    height: 8vw;
+    padding: 1vw;
+    text-align: right;
+    background-color: #7979bcc5;
+    border-radius: 1.4vw;
+    font-size: 1vw;
+}
+
+.left {
+    margin-top: 2vw;
+    padding: 1vw;
+    text-align: left;
+    width: 30.5vw;
+    height: 7vw;
+
+    background-color: #7979bcc5;
+    border-radius: 1.4vw;
+    font-size: 1vw;
+}
+
+.spisok {
+    list-style-type: none;
+}
+
+.swiper {
+
+    width: 90vw;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    width: 60vw;
+    height: 35vw;
+    
+}
+
+.swiper-button-next,
+.swiper-rtl .swiper-button-prev {
+    right: 20vw !important;
+    left: auto;
+}
+
+.swiper-button-prev,
+.swiper-rtl .swiper-button-next {
+    left: 20vw !important;
+    right: auto;
+}
+
